@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 public class CalculatorController {
     @RequestMapping("/add")
+
     public static double getUrladdition(
             @RequestParam(value="number1", defaultValue = "0")double number1,
             @RequestParam(value="number2", defaultValue = "0")double number2){
