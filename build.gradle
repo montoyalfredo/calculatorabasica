@@ -10,7 +10,7 @@ plugins {
 
 group = 'io.quind'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '11.0.10'
 
 repositories {
 	mavenCentral()
